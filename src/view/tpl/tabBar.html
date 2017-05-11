@@ -1,0 +1,16 @@
+<div class="tabBar" ng-controller="tabBarCtrl">
+    <ul>
+        <li ng-click="changePage('home')">
+            <img src="images/tab-icon/{{type=='home'?'home.png':'home-s.png'}}" alt="">首页
+        </li>
+        <li ng-click="changePage('column')">
+            <img src="images/tab-icon/{{type=='column'?'column.png':'column-s.png'}}" alt="">栏目
+        </li>
+        <li ng-click="changePage('author')">
+            <img src="images/tab-icon/{{type=='author'?'author.png':'author-s.png'}}" alt="">作者
+        </li>
+        <li ng-click="changePage('my')">
+            <img src="images/tab-icon/{{type=='my'?'my.png':'my-s.png'}}" alt="">我的
+        </li>
+    </ul>
+</div>
